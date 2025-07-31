@@ -2,32 +2,37 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
+  name: "James",
   initials: "DV",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: " Lagos, Nigeria",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Engineer . I love building things and helping people. Very active on 𝕏.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle—architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It's more than mastering frameworks; it's about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of code, but in terms of crafting solutions that shape the future..",
+  avatarUrl: "/mypicture.png",
   skills: [
     "React",
     "Next.js",
     "Typescript",
+    "JavaScript",
     "Node.js",
-    "Python",
-    "Go",
     "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Prisma",
+    "TailwindCSS",
+    "Shadcn UI",
+    "Clerk",
+    "Sentry",
+    "AWS",
+    "CI/CD",
+    "Git/GitHub",
+   
+   
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "hello@example.com",
@@ -35,29 +40,23 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/alphaonenfts",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/emmanuel-imeh-james-32398134b/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/jamescode00",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -72,28 +71,28 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Homebase Mortgage Bank",
+      href: "https://Homebasebank.com",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "On site",
+      title: "Software Engineer/Developer",
+      logoUrl: "/homebase2logo.jpg",
+      start: "March 2025",
+      end: "  Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        ".",
     },
     {
-      company: "Shopify",
+      company: "Technocrime Security Limited",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://technocrime.com.ng",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      title: "IT Support Engineer/ Frontend Developer",
+      logoUrl: "/technocrime.png",
+      start: "May 2023",
+      end: "October 2023",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        ".",
     },
     {
       company: "Nvidia",
@@ -106,95 +105,44 @@ export const DATA = {
       end: "April 2020",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+    }
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "Udemy Learn",
+      href: "https://udemy.com",
+      degree: "Full Stack Developer, Aws certified Devoloper Associate",
+      logoUrl: "/udemy.jpg",
       start: "2023",
       end: "2024",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school: "Federal University Oye Ekiti",
+      href: "https://fuoye.edu.ng/",
+      degree: "Bachelor's Degree of Computer Engineering (BEng)",
+      logoUrl: "/fuoye.png",
+      start: "2018",
+      end: "2024",
     },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
-    },
+    
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Converso- LMS Platform",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "May 2025 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "This is an exceptional project, A LMS platform that allows you build campions on a particular topic and subject, then have a specific teaching sessions communicating with the tutor orally.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Supabase",
         "TailwindCSS",
-        "Stripe",
+        "Clerk Auth & Billing",
         "Shadcn UI",
-        "Magic UI",
+        "Sentry",
+        "Vapi Ai"
       ],
       links: [
         {
@@ -202,42 +150,43 @@ export const DATA = {
           href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/alphaonenfts/LMS-SAAS-APPLICATION",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video:
+        "https://res.cloudinary.com/dhaapnpf7/video/upload/v1753886304/Converso_-_Made_with_Clipchamp_msm7pw.mp4",
+    },
+    {
+      title: "Zentry -Awward Winning Project",
+      href: "https://awardwinningwebsite.vercel.app/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "As the name says, I recreated this award winning website named Zentry. The project was built with Reactjs, Tailwind, GSAP for some cool animation and transsistionS 😉.",
+      technologies: [
+        "Raect.js",
+        "JavaScript",
+        "TailwindCSS",
+        "GSAP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://awardwinningwebsite.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alphaonenfts/awardwinningwebsite",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dhaapnpf7/video/upload/v1753950080/Zentry_-_Made_with_Clipchamp_coe8ki.mp4",
     },
     {
       title: "llm.report",
@@ -273,33 +222,34 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
+      title: "BananArt 🍌 Airdrop Wallet Checker",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "December 2024 - January 2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "One of my favorite web3 project I and Oloye, It was basically used to check if you were whitelisted for an Nft airdrop. For the love of web3, we built this with React and Python. NB: Endpoint not functional.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Rect.js",
+        "JavaScript",
+        "Python",
+        "Flask",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "banana-art.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/alphaonenfts/bananaArt",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "https://res.cloudinary.com/dhaapnpf7/image/upload/v1753884778/bananart_lqzfdq.webp",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   hackathons: [
